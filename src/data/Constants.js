@@ -10,7 +10,7 @@ export const Bio = {
       "I am Chavi Jain, a motivated and versatile software engineer with a strong foundation in C++ and Data Structures & Algorithms. Passionate about learning and problem-solving, I specialize in creating high-quality software solutions. With experience in developing responsive web applications and solving complex coding challenges, I aim to contribute meaningfully to innovative projects and achieve impactful results.",
     github: "https://github.com/chavijain2303",
     resume:
-      "https://drive.google.com/file/d/1uD5lC2JsA6ILkrJq6Yrws_LUTBrZEetr/view?usp=sharing",
+      "https://drive.google.com/file/d/1_juTBqS_p-CdEGHWvr3aqZZNYVCcnJAR/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/chavijain2303/",
     twitter: "https://x.com/chavi2303",
     insta: "https://www.instagram.com/chavijain2303?igsh=MTk1amlhbXRjMndrcw==",
