@@ -2,7 +2,6 @@ export const Bio = {
     name: "Chavi Jain",
     roles: [
       "Software Developer",
-      "DSA - C++",
       "Data Analyst",
       "Programmer",
     ],
@@ -17,129 +16,138 @@ export const Bio = {
   };
   
   export const skills = [
-    {
-        title: "Programming Languages",
-        skills: [
-            {
-                name: "C++",
-                image: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
-            },
-            {
-                name: "Python",
-                image: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
-            },
-            {
-                name: "SQL",
-                image: "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
-            },
-        ],
-    },
-    {
-        title: "Frontend Development",
-        skills: [
-            {
-                name: "React.js",
-                image:
-                    "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
-            },
-            {
-                name: "HTML",
-                image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
-            },
-            {
-                name: "CSS",
-                image:
-                    "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
-            },
-            {
-                name: "JavaScript",
-                image:
-                    "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
-            },
-        ],
-    },
-    {
-        title: "Software Development Skills",
-        skills: [
-            {
-                name: "Data Structures and Algorithms",
-                image:
-                    "https://play-lh.googleusercontent.com/9zvNJHedNg_6lOdwcodODMVsyeHKxuTIpnbBzomRGGZAp_vKVXnd5SlF8XZcXyGYjQ",
-            },
-            {
-                name: "Object-Oriented Programming (OOP)",
-                image:
-                    "https://substackcdn.com/image/fetch/f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7c56f17b-aaa7-4472-a65f-c7767ec5f243_1412x1062.png",
-            },
-            {
-                name: "DBMS",
-                image:
-                    "https://www.interviewbit.com/blog/wp-content/uploads/2021/08/dbms.jpg",
-            },
-        ],
-    },
-    {
-        title: "AI/ML and Data Science",
-        skills: [
-            {
-                name: "Machine Learning",
-                image:
-                    "https://www.fsm.ac.in/blog/wp-content/uploads/2022/08/ml-e1610553826718.jpg",
-            },
-            {
-                name: "Data Science",
-                image:
-                    "https://images.prismic.io/turing/652ec29afbd9a45bcec8194c_shutterstock_1247255884_4afac53e02.webp?auto=format,compress",
-            },
-            {
-                name: "Big Data Analytics",
-                image:
-                    "https://cdn.bap-software.net/2023/02/what-is-Big-Data-analytics.jpg",
-            },
-        ],
-    },
-    {
-        title: "Tools & Frameworks",
-        skills: [
-            {
-                name: "Bootstrap",
-                image:
-                    "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-            },
-            {
-                name: "Material UI",
-                image:
-                    "https://mui.com/static/logo.png",
-            },
-            {
-                name: "Git",
-                image:
-                  "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
-            },
-            {
-                name: "GitHub",
-                image:
-                  "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-            },
-            {
-                name: "Netlify",
-                image:
-                  "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-              },
-              {
-                name: "VS Code",
-                image:
-                  "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-            },
-        ],
-    },
+  {
+    title: "Programming Languages & Concepts",
+    skills: [
+      {
+        name: "C++",
+        image: "https://upload.wikimedia.org/wikipedia/commons/1/18/ISO_C%2B%2B_Logo.svg",
+      },
+      {
+        name: "Python",
+        image: "https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg",
+      },
+      {
+        name: "Java",
+        image: "./Images/Java.png",
+      },
+      {
+        name: "DSA (Advanced)",
+        image: "./Images/DSA.png"
+      },
+      {
+        name: "OOPs",
+        image: "./Images/OOPS.png",
+      },
+      {
+        name: "REST APIs",
+        image: "./Images/Rest APIs.png",
+      },
+    ],
+  },
+  {
+    title: "Web & Application Development",
+    skills: [
+      {
+        name: "HTML",
+        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+      },
+      {
+        name: "CSS",
+        image: "https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg",
+      },
+      {
+        name: "JavaScript",
+        image: "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
+      },
+      {
+        name: "React.js",
+        image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg",
+      },
+      {
+        name: "Flask",
+        image: "./Images/Flask.png",
+      },
+      {
+        name: "Node.js",
+        image: "./Images/Node JS.png",
+      },
+      {
+        name: "Tailwind CSS",
+        image: "./Images/Tailwind CSS.png",
+      },
+      {
+        name: "Bootstrap",
+        image: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+      },
+    ],
+  },
+  {
+    title: "Data Management & Analytics",
+    skills: [
+      {
+        name: "SQL",
+        image: "https://upload.wikimedia.org/wikipedia/commons/8/87/Sql_data_base_with_logo.png",
+      },
+      {
+        name: "DBMS",
+        image: "./Images/DBMS.png",
+      },
+      {
+        name: "Excel (Advanced)",
+        image: "./Images/Excel.png",
+      },
+      {
+        name: "Power BI",
+        image: "./Images/Power BI.png",
+      },
+      {
+        name: "Query Optimization",
+        image: "./Images/Query Optimisation.png",
+      },
+      {
+        name: "Data Modeling",
+        image: "./Images/Data Modeling.png",
+      },
+      {
+        name: "Data Cleaning",
+        image: "./Images/Data Cleaning.png",
+      },
+      {
+        name: "Testing",
+        image: "./Images/Testing.png",
+      },
+    ],
+  },
+  {
+    title: "Tools & Frameworks",
+    skills: [
+      {
+        name: "Git",
+        image: "./Images/git.png",
+      },
+      {
+        name: "GitHub",
+        image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      },
+      {
+        name: "VS Code",
+        image: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
+      },
+      {
+        name: "Netlify",
+        image: "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+      },
+    ],
+  },
 ];
+
 
   
 export const experiences = [
     {
         id: 0,
-        img: "https://www.learningfolks.in/static/media/logo.abe88664698e890898be.png",
+        img: "./Images/Learning Folks.png",
         role: "Software Developer Intern",
         company: "Learning Folks",
         date: "June 2023 - Sep 2023",
@@ -192,6 +200,22 @@ export const certificates = [
     },
     {
         id: 1,
+        title: "Power BI Certification",
+        provider: "Satish Dhawale",
+        date: "Completed - 2023",
+        description: "Comprehensive training in Power BI, focusing on data visualization, dashboards, and business intelligence solutions.",
+        img: "https://drive.google.com/file/d/1XyXW8RlQMtlasTfBPZiGKr5K2KY8xGGf/view?usp=sharing",
+    },
+    {
+        id: 2,
+        title: "SQL Bootcamp",
+        provider: "Lets Upgrade",
+        date: "Completed - 2023",
+        description: "Bootcamp covering SQL fundamentals, queries, joins, and database management concepts.",
+        img: "https://drive.google.com/file/d/1G9pZ-KzM5Q1hVFnQolPG7CY16IPJ9odi/view?usp=sharing",
+    },
+    {
+        id: 3,
         title: "Full Stack Web Development",
         provider: "Udemy",
         date: "Completed - 2023",
@@ -199,7 +223,7 @@ export const certificates = [
         img: "https://drive.google.com/file/d/1JPR-wVdjCaZlA6schGFI56sDT0lCW8SA/view?usp=drive_link",
     },
     {
-        id: 2,
+        id: 4,
         title: "Flipkart GRiD 6.0 - Software Development",
         provider: "Unstop",
         date: "Hackathon - 2023",
@@ -207,7 +231,7 @@ export const certificates = [
         img: "https://drive.google.com/file/d/1XP9GGjc7oK8pQsegQHVEaxFaugimbZSP/view?usp=drive_link",
     },
     {
-        id: 3,
+        id: 5,
         title: "Smart India Hackathon",
         provider: "Ministry of Education, India",
         date: "Hackathon - 2023",
@@ -216,13 +240,14 @@ export const certificates = [
     },
 ];
 
+
 export const education = [
     {
         id: 0,
         img: "https://facultytub.com/wp-content/uploads/2024/10/Bhagwan-Parshuram-Institute-of-Technology.png",
         school: "Bhagwan Parshuram Institute of Technology, Delhi",
         date: "Aug 2021 - May 2025",
-        grade: "9.143 CGPA",
+        grade: "9.210 CGPA",
         desc: "I am currently pursuing a Bachelor's degree in Information Technology at BPIT, affiliated with GGSIPU. My coursework includes Data Structures, Algorithms, Database Management Systems, and Operating Systems, among others. I am actively involved in technical societies like Hash Define, which has allowed me to enhance my programming skills and participate in events.",
         degree: "Bachelor of Technology - BTech, Information Technology",
     },
@@ -257,7 +282,7 @@ export const projects = [
         image: "https://repository-images.githubusercontent.com/315986811/d74b3080-2f6a-11eb-960e-c405ce8cfc43",
         tags: ["React", "State Management", "Hooks", "JavaScript"],
         category: "web app",
-        github: "https://github.com/chavijain2303/React_Todos-List", // Replace with actual link
+        github: "https://github.com/chavijain2303/React_Todos-List",
     },
     {
         id: 1,
@@ -265,11 +290,10 @@ export const projects = [
         date: "Aug 2023",
         description:
             "This dynamic Work Management Dashboard, built with React and Tailwind CSS, manages and visualizes tasks and performance metrics across departments. Features multiple tables with unique identifiers and advanced filtering options.",
-        image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE4YudurFDiC6xRb0NOZDTlXQwGjdBCYglhQ&s",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE4YudurFDiC6xRb0NOZDTlXQwGjdBCYglhQ&s",
         tags: ["React", "Tailwind CSS", "JavaScript", "Data Visualization"],
         category: "web app",
-        github: "https://github.com/chavijain2303/Dashboard", // Replace with actual link
+        github: "https://github.com/chavijain2303/Dashboard",
     },
     {
         id: 2,
@@ -280,7 +304,7 @@ export const projects = [
         image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSd0-t_pN890S3xwPSlAi9t_2NyygAYU7rxQ&s",
         tags: ["HTML", "CSS", "Bootstrap", "JavaScript"],
         category: "utility",
-        github: "https://github.com/chavijain2303/JavaScript-Clock", // Replace with actual link
+        github: "https://github.com/chavijain2303/JavaScript-Clock",
     },
     {
         id: 3,
@@ -291,7 +315,7 @@ export const projects = [
         image: "https://www.iba.aero/wp-content/uploads/2024/08/what-is-a-landing-slot-and-how-much-is-one-worth-december-2019-1603018686.webp",
         tags: ["Python", "Optimization", "Resource Allocation"],
         category: "algorithmic problem-solving",
-        github: "https://github.com/chavijain2303/Runway-Allocation", // Replace with actual link
+        github: "https://github.com/chavijain2303/Runway-Allocation",
     },
     {
         id: 4,
@@ -302,7 +326,7 @@ export const projects = [
         image: "https://user-images.githubusercontent.com/74191100/211145941-92a66622-9fcd-4c67-9255-aef4b82652c3.png",
         tags: ["JavaScript", "Visualization", "Data Structures"],
         category: "web app",
-        github: "https://github.com/chavijain2303/Sorting-Visualizer", // Replace with actual link
+        github: "https://github.com/chavijain2303/Sorting-Visualizer",
     },
     {
         id: 5,
@@ -313,7 +337,7 @@ export const projects = [
         image: "https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg",
         tags: ["HTML", "CSS", "JavaScript"],
         category: "web app",
-        github: "https://github.com/chavijain2303/Netflix-Clone", // Replace with actual link
+        github: "https://github.com/chavijain2303/Netflix-Clone",
     },
     {
         id: 6,
@@ -324,9 +348,66 @@ export const projects = [
         image: "https://market-resized.envatousercontent.com/previews/files/503872841/01_eventmana.jpg?w=590&h=300&cf_fit=crop&crop=top&format=auto&q=85&s=9ddf0189257b855afb88f92c683107f19baa9f928ab9bb532f0cf524a6fc702f",
         tags: ["JavaScript", "HTML", "CSS"],
         category: "web app",
-        github: "https://github.com/chavijain2303/Event-Management", // Replace with actual link
+        github: "https://github.com/chavijain2303/Event-Management",
+    },
+    // ✅ New Projects
+    {
+        id: 7,
+        title: "CampusEase - Event Management System",
+        date: "Aug 2024",
+        description:
+            "Developed a scalable event management system with role-based authentication, dynamic dashboards for admins/students, event creation/editing, QR-based attendance tracking, participant and result management.",
+        image: "./images/CampusEase.png",
+        tags: ["Python", "Django", "React", "Full Stack"],
+        category: "full stack",
+        github: "https://github.com/chavijain2303/CampusEase-Event-Management-System",
+    },
+    {
+        id: 8,
+        title: "Mobile Sales Insight Dashboard",
+        date: "Aug 2024",
+        description:
+            "An interactive Power BI dashboard providing insights into mobile sales, tracking KPIs, revenue, and trends for better decision-making.",
+        image: "./images/Mobile Sales Insight Dashboard.png",
+        tags: ["Power BI", "Data Visualization", "Analytics"],
+        category: "dashboard",
+        github: "https://github.com/chavijain2303/Mobile-Sales-Insight-Power-BI-Dashboard",
+    },
+    {
+        id: 9,
+        title: "Hospital Emergency Room Dashboard",
+        date: "May 2024",
+        description:
+            "Excel-based dashboard analyzing hospital emergency room efficiency, patient wait times, and resource utilization to provide actionable insights.",
+        image: "./images/Hospital Emergency Room Dashboard.png",
+        tags: ["Excel", "Dashboard", "Healthcare Analytics"],
+        category: "dashboard",
+        github: "https://github.com/chavijain2303/Hospital_Emergency_Room_Dashboard-Excel",
+    },
+    {
+        id: 10,
+        title: "SQL Project - Online Bookstore",
+        date: "May 2024",
+        description:
+            "A relational database for an Online Bookstore built using PostgreSQL. Includes data modeling, importing datasets, and implementing advanced SQL queries.",
+        image: "./images/Online Bookstore.png",
+        tags: ["SQL", "PostgreSQL", "Database Design"],
+        category: "database",
+        github: "https://github.com/chavijain2303/SQL-Project-on-Online-Book-store",
+    },
+        {
+        id: 11,
+        title: "HarmoniQ Chatbot Song Recommendation System",
+        date: "Sep 2024",
+        description:
+            "An AI-powered chatbot that personalizes music discovery using collaborative filtering, content-based filtering, and hybrid deep learning models (RNNs). Provides dynamic recommendations based on mood, preferences, and user feedback.",
+        image: "./images/HarmoniQ.png",
+        tags: ["Machine Learning", "Chatbot", "Recommendation System", "AI"],
+        category: "AI/ML",
+        github: "", 
     },
 ];
+
 
   
 export const TimeLineData = [
