@@ -9,7 +9,7 @@ export const Bio = {
       "I am Chavi Jain, a motivated and versatile software engineer with a strong foundation in C++ and Data Structures & Algorithms. Passionate about learning and problem-solving, I specialize in creating high-quality software solutions. With experience in developing responsive web applications and solving complex coding challenges, I aim to contribute meaningfully to innovative projects and achieve impactful results.",
     github: "https://github.com/chavijain2303",
     resume:
-      "https://drive.google.com/file/d/1_juTBqS_p-CdEGHWvr3aqZZNYVCcnJAR/view?usp=sharing",
+      "https://drive.google.com/file/d/1I-GWJC3ZW-VZrYWxNNBeQMABeSYJ5pq6/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/chavijain2303/",
     twitter: "https://x.com/chavi2303",
     insta: "https://www.instagram.com/chavijain2303?igsh=MTk1amlhbXRjMndrcw==",
@@ -29,19 +29,19 @@ export const Bio = {
       },
       {
         name: "Java",
-        image: "./Images/Java.png",
+        image: "/Images/Java.png",
       },
       {
         name: "DSA (Advanced)",
-        image: "./Images/DSA.png"
+        image: "/Images/DSA.png"
       },
       {
         name: "OOPs",
-        image: "./Images/OOPS.png",
+        image: "/Images/OOPS.png",
       },
       {
         name: "REST APIs",
-        image: "./Images/Rest APIs.png",
+        image: "/Images/Rest APIs.png",
       },
     ],
   },
@@ -66,15 +66,15 @@ export const Bio = {
       },
       {
         name: "Flask",
-        image: "./Images/Flask.png",
+        image: "/Images/Flask.png",
       },
       {
         name: "Node.js",
-        image: "./Images/Node JS.png",
+        image: "/Images/Node JS.png",
       },
       {
         name: "Tailwind CSS",
-        image: "./Images/Tailwind CSS.png",
+        image: "/Images/Tailwind CSS.png",
       },
       {
         name: "Bootstrap",
@@ -91,31 +91,31 @@ export const Bio = {
       },
       {
         name: "DBMS",
-        image: "./Images/DBMS.png",
+        image: "/Images/DBMS.png",
       },
       {
         name: "Excel (Advanced)",
-        image: "./Images/Excel.png",
+        image: "/Images/Excel.png",
       },
       {
         name: "Power BI",
-        image: "./Images/Power BI.png",
+        image: "/Images/Power BI.png",
       },
       {
         name: "Query Optimization",
-        image: "./Images/Query Optimisation.png",
+        image: "/Images/Query Optimisation.png",
       },
       {
         name: "Data Modeling",
-        image: "./Images/Data Modeling.png",
+        image: "/Images/Data Modeling.png",
       },
       {
         name: "Data Cleaning",
-        image: "./Images/Data Cleaning.png",
+        image: "/Images/Data Cleaning.png",
       },
       {
         name: "Testing",
-        image: "./Images/Testing.png",
+        image: "/Images/Testing.png",
       },
     ],
   },
@@ -124,7 +124,7 @@ export const Bio = {
     skills: [
       {
         name: "Git",
-        image: "./Images/git.png",
+        image: "/Images/git.png",
       },
       {
         name: "GitHub",
@@ -147,7 +147,7 @@ export const Bio = {
 export const experiences = [
     {
         id: 0,
-        img: "./Images/Learning Folks.png",
+        img: "/Images/Learning Folks.png",
         role: "Software Developer Intern",
         company: "Learning Folks",
         date: "June 2023 - Sep 2023",
@@ -357,7 +357,7 @@ export const projects = [
         date: "Aug 2024",
         description:
             "Developed a scalable event management system with role-based authentication, dynamic dashboards for admins/students, event creation/editing, QR-based attendance tracking, participant and result management.",
-        image: "./images/CampusEase.png",
+        image: "/Images/CampusEase.png",
         tags: ["Python", "Django", "React", "Full Stack"],
         category: "full stack",
         github: "https://github.com/chavijain2303/CampusEase-Event-Management-System",
@@ -368,7 +368,7 @@ export const projects = [
         date: "Aug 2024",
         description:
             "An interactive Power BI dashboard providing insights into mobile sales, tracking KPIs, revenue, and trends for better decision-making.",
-        image: "./images/Mobile Sales Insight Dashboard.png",
+        image: "/Images/Mobile Sales Insight Dashboard.png",
         tags: ["Power BI", "Data Visualization", "Analytics"],
         category: "dashboard",
         github: "https://github.com/chavijain2303/Mobile-Sales-Insight-Power-BI-Dashboard",
@@ -379,7 +379,7 @@ export const projects = [
         date: "May 2024",
         description:
             "Excel-based dashboard analyzing hospital emergency room efficiency, patient wait times, and resource utilization to provide actionable insights.",
-        image: "./images/Hospital Emergency Room Dashboard.png",
+        image: "/Images/Hospital Emergency Room Dashboard.png",
         tags: ["Excel", "Dashboard", "Healthcare Analytics"],
         category: "dashboard",
         github: "https://github.com/chavijain2303/Hospital_Emergency_Room_Dashboard-Excel",
@@ -390,7 +390,7 @@ export const projects = [
         date: "May 2024",
         description:
             "A relational database for an Online Bookstore built using PostgreSQL. Includes data modeling, importing datasets, and implementing advanced SQL queries.",
-        image: "./images/Online Bookstore.png",
+        image: "/Images/Online Bookstore.png",
         tags: ["SQL", "PostgreSQL", "Database Design"],
         category: "database",
         github: "https://github.com/chavijain2303/SQL-Project-on-Online-Book-store",
@@ -401,7 +401,7 @@ export const projects = [
         date: "Sep 2024",
         description:
             "An AI-powered chatbot that personalizes music discovery using collaborative filtering, content-based filtering, and hybrid deep learning models (RNNs). Provides dynamic recommendations based on mood, preferences, and user feedback.",
-        image: "./images/HarmoniQ.png",
+        image: "/Images/HarmoniQ.png",
         tags: ["Machine Learning", "Chatbot", "Recommendation System", "AI"],
         category: "AI/ML",
         github: "", 
