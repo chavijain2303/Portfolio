@@ -6,10 +6,9 @@ export const Bio = {
       "Programmer",
     ],
     description:
-      "I am Chavi Jain, a motivated and versatile software engineer with a strong foundation in C++ and Data Structures & Algorithms. Passionate about learning and problem-solving, I specialize in creating high-quality software solutions. With experience in developing responsive web applications and solving complex coding challenges, I aim to contribute meaningfully to innovative projects and achieve impactful results.",
+      "Aspiring Software Developer and Data Analyst with a strong foundation in C++, Data Structures & Algorithms, and Object-Oriented Programming, combined with hands-on experience in full-stack development and data-driven problem solving. Skilled in building scalable, efficient, and user-centric applications using React, Flask, SQL, and Python, while also developing analytical solutions, BI dashboards, and automated reporting systems. Experienced in applying statistical modeling, business intelligence, and modern data workflows to transform complex datasets into actionable insights. Passionate about clean architecture, performance optimization, and data-informed decision-making, with a collaborative mindset and a strong focus on delivering impact at scale.",
     github: "https://github.com/chavijain2303",
-    resume:
-      "https://drive.google.com/file/d/1I-GWJC3ZW-VZrYWxNNBeQMABeSYJ5pq6/view?usp=sharing",
+    resume:"https://drive.google.com/file/d/1u0X9EnvTcT1YshflcXr4QG0SfJs_TPca/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/chavijain2303/",
     twitter: "https://x.com/chavi2303",
     insta: "https://www.instagram.com/chavijain2303?igsh=MTk1amlhbXRjMndrcw==",
@@ -33,7 +32,7 @@ export const Bio = {
       },
       {
         name: "DSA (Advanced)",
-        image: "/Images/DSA.png"
+        image: "/Images/DSA.png",
       },
       {
         name: "OOPs",
@@ -42,6 +41,10 @@ export const Bio = {
       {
         name: "REST APIs",
         image: "/Images/Rest APIs.png",
+      },
+      {
+        name: "Scripting",
+        image: "/Images/Scripting.png",
       },
     ],
   },
@@ -110,8 +113,44 @@ export const Bio = {
         image: "/Images/Data Modeling.png",
       },
       {
+        name: "Dashboarding",
+        image: "/Images/Dashboarding.png",
+      },
+      {
+        name: "DAX",
+        image: "/Images/DAX.png",
+      },
+      {
+        name: "NumPy",
+        image: "/Images/Numpy.png",
+      },
+      {
+        name: "Pandas",
+        image: "/Images/Pandas.png",
+      },
+      {
+        name: "Data Visualization",
+        image: "/Images/Data Visualization.png",
+      },
+      {
+        name: "Exploratory Data Analysis (EDA)",
+        image: "/Images/EDA.png",
+      },
+      {
         name: "Data Cleaning",
         image: "/Images/Data Cleaning.png",
+      },
+      {
+        name: "Data Modeling",
+        image: "/Images/Data Modeling.png",
+      },
+      {
+        name: "Query Optimization",
+        image: "/Images/Query Optimisation.png",
+      },
+      {
+        name: "Reporting & Analysis",
+        image: "/Images/Reporting.png",
       },
       {
         name: "Testing",
@@ -135,12 +174,17 @@ export const Bio = {
         image: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg",
       },
       {
+        name: "Jupyter Notebook",
+        image: "/Images/Jupyter.png",
+      },
+      {
         name: "Netlify",
-        image: "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+        image: "/Images/Netlify.png",
       },
     ],
   },
 ];
+
 
 
   
@@ -190,55 +234,71 @@ export const experiences = [
 ];
 
 export const certificates = [
-    {
-        id: 0,
-        title: "C++ and DSA Certification",
-        provider: "Coding Ninjas",
-        date: "Completed - 2023",
-        description: "Advanced certification in C++ and Data Structures & Algorithms, covering in-depth concepts and problem-solving techniques.",
-        img: "https://drive.google.com/file/d/1QtuYJqKmuOQg-LvT-ZgN1L3fc08WdRqW/view?usp=sharing",
-    },
-    {
-        id: 1,
-        title: "Power BI Certification",
-        provider: "Satish Dhawale",
-        date: "Completed - 2023",
-        description: "Comprehensive training in Power BI, focusing on data visualization, dashboards, and business intelligence solutions.",
-        img: "https://drive.google.com/file/d/1XyXW8RlQMtlasTfBPZiGKr5K2KY8xGGf/view?usp=sharing",
-    },
-    {
-        id: 2,
-        title: "SQL Bootcamp",
-        provider: "Lets Upgrade",
-        date: "Completed - 2023",
-        description: "Bootcamp covering SQL fundamentals, queries, joins, and database management concepts.",
-        img: "https://drive.google.com/file/d/1G9pZ-KzM5Q1hVFnQolPG7CY16IPJ9odi/view?usp=sharing",
-    },
-    {
-        id: 3,
-        title: "Full Stack Web Development",
-        provider: "Udemy",
-        date: "Completed - 2023",
-        description: "Comprehensive course covering frontend, backend, and deployment, focusing on tools and frameworks like React, Node.js, and MongoDB.",
-        img: "https://drive.google.com/file/d/1JPR-wVdjCaZlA6schGFI56sDT0lCW8SA/view?usp=drive_link",
-    },
-    {
-        id: 4,
-        title: "Flipkart GRiD 6.0 - Software Development",
-        provider: "Unstop",
-        date: "Hackathon - 2023",
-        description: "Participation in Flipkart's prestigious hackathon, solving real-world problems in software development.",
-        img: "https://drive.google.com/file/d/1XP9GGjc7oK8pQsegQHVEaxFaugimbZSP/view?usp=drive_link",
-    },
-    {
-        id: 5,
-        title: "Smart India Hackathon",
-        provider: "Ministry of Education, India",
-        date: "Hackathon - 2023",
-        description: "Collaborated with a team to solve critical societal problems using innovative technical solutions.",
-        img: "https://drive.google.com/file/d/1hOp5zS4KWEKR5_IV_oeyuuzoYb635z-J/view?usp=drive_link",
-    },
+  {
+    id: 0,
+    title: "C++ and DSA Certification",
+    provider: "Coding Ninjas",
+    date: "Completed - 2023",
+    description:
+      "Advanced certification in C++ and Data Structures & Algorithms, covering in-depth concepts and problem-solving techniques.",
+    img: "https://drive.google.com/file/d/1QtuYJqKmuOQg-LvT-ZgN1L3fc08WdRqW/view?usp=sharing",
+  },
+  {
+    id: 1,
+    title: "Power BI Certification",
+    provider: "Satish Dhawale",
+    date: "Completed - 2023",
+    description:
+      "Comprehensive training in Power BI, focusing on data visualization, interactive dashboards, DAX, and business intelligence solutions.",
+    img: "https://drive.google.com/file/d/1XyXW8RlQMtlasTfBPZiGKr5K2KY8xGGf/view?usp=sharing",
+  },
+  {
+    id: 2,
+    title: "SQL Bootcamp",
+    provider: "Lets Upgrade",
+    date: "Completed - 2023",
+    description:
+      "Hands-on bootcamp covering SQL fundamentals, complex queries, joins, subqueries, and database management concepts.",
+    img: "https://drive.google.com/file/d/1G9pZ-KzM5Q1hVFnQolPG7CY16IPJ9odi/view?usp=sharing",
+  },
+  {
+    id: 3,
+    title: "Full Stack Web Development",
+    provider: "Udemy",
+    date: "Completed - 2023",
+    description:
+      "Comprehensive course covering frontend, backend, and deployment using React, Node.js, MongoDB, and modern web development practices.",
+    img: "https://drive.google.com/file/d/1JPR-wVdjCaZlA6schGFI56sDT0lCW8SA/view?usp=drive_link",
+  },
+  {
+    id: 4,
+    title: "Project Based Learning Program",
+    provider: "IBM SkillsBuild",
+    date: "Completed - 2023",
+    description:
+      "Project-based learning program focused on applying real-world problem-solving, data analysis, and software development concepts through hands-on projects.",
+    img: "https://drive.google.com/file/d/1JF64msWXjjeAxLlOwHiYkydn7yqx73O5/view",
+  },
+  {
+    id: 5,
+    title: "Flipkart GRiD 6.0 - Software Development",
+    provider: "Unstop",
+    date: "Hackathon - 2023",
+    description:
+      "Participated in Flipkart's national-level hackathon, solving real-world software development challenges in a competitive environment.",
+    img: "https://drive.google.com/file/d/1XP9GGjc7oK8pQsegQHVEaxFaugimbZSP/view?usp=drive_link",
+  },
+  {
+    id: 6,
+    title: "Smart India Hackathon",
+    provider: "Ministry of Education, India",
+    date: "Hackathon - 2023",
+    description:
+      "Collaborated in a team to design and develop innovative technical solutions for critical societal and industry problems.",
+    img: "https://drive.google.com/file/d/1hOp5zS4KWEKR5_IV_oeyuuzoYb635z-J/view?usp=drive_link",
+  },
 ];
+    
 
 
 export const education = [
@@ -406,6 +466,62 @@ export const projects = [
         category: "AI/ML",
         github: "", 
     },
+    {
+  id: 12,
+  title: "Python for Data Analysis - Complete Learning Repository",
+  date: "2024",
+  description:
+    "A comprehensive Python for Data Analysis learning repository covering Python fundamentals, NumPy, Pandas, Exploratory Data Analysis (EDA), data visualization, SQL integration, statistics, and automation using Jupyter Notebooks.",
+  image: "/Images/Python-Data-Analysis.png",
+  tags: [
+    "Python",
+    "NumPy",
+    "Pandas",
+    "EDA",
+    "Data Visualization",
+    "SQL",
+    "Jupyter Notebook",
+  ],
+  category: "data analytics",
+  github: "https://github.com/chavijain2303/data-analysis-with-python.git",
+},
+{
+  id: 13,
+  title: "Vendor Performance Analysis",
+  date: "2024",
+  description:
+    "End-to-end data analytics project analyzing vendor profitability, pricing efficiency, and inventory turnover using SQL, Python, and Power BI. Delivered actionable business insights through an interactive dashboard for improved vendor management.",
+  image: "/Images/Vendor-Performance-Analysis.png",
+  tags: [
+    "SQL",
+    "Python",
+    "Power BI",
+    "Business Intelligence",
+    "Data Analytics",
+    "Dashboarding",
+  ],
+  category: "data analytics",
+  github: "https://github.com/chavijain2303/Vendor-Performance-Analysis.git",
+},
+{
+  id: 14,
+  title: "Automated Business Report Extraction and Visualization System",
+  date: "2024",
+  description:
+    "An automation solution for extracting structured business data from PDF reports, processing it through a Flask backend, storing it in PostgreSQL, and visualizing insights using Power BI dashboards. Streamlines manual data entry and delivers near real-time business intelligence.",
+  image: "/Images/PDF-Data-Extraction.jpeg",
+  tags: [
+    "Python",
+    "Flask",
+    "PostgreSQL",
+    "Power BI",
+    "Automation",
+    "Data Engineering",
+    "ETL",
+  ],
+  category: "full stack",
+  github: "https://github.com/chavijain2303/pdf-data-extraction.git",
+}
 ];
 
 
