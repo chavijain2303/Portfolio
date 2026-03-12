@@ -1,9 +1,8 @@
-import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import InstagramIcon from '@mui/icons-material/Instagram';
-import { Bio } from '../../data/Constants';
+import styled from "styled-components";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import { Bio } from "../../data/Constants";
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -37,6 +36,7 @@ const Nav = styled.nav`
   flex-direction: row;
   gap: 2rem;
   justify-content: center;
+
   @media (max-width: 768px) {
     flex-wrap: wrap;
     gap: 1rem;
@@ -51,9 +51,11 @@ const NavLink = styled.a`
   text-decoration: none;
   font-size: 1.2rem;
   transition: color 0.2s ease-in-out;
+
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
+
   @media (max-width: 768px) {
     font-size: 1rem;
   }
@@ -70,6 +72,7 @@ const SocialMediaIcon = styled.a`
   font-size: 1.5rem;
   color: ${({ theme }) => theme.text_primary};
   transition: color 0.2s ease-in-out;
+
   &:hover {
     color: ${({ theme }) => theme.primary};
   }
@@ -87,22 +90,45 @@ function Footer() {
     <FooterContainer>
       <FooterWrapper>
         <Logo>CHAVI JAIN</Logo>
+
         <Nav>
           <NavLink href="#about">About</NavLink>
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
           <NavLink href="#education">Education</NavLink>
-          <NavLink href="#contact">Contact</NavLink> {/* Contact Link */}
-          <NavLink href="#certificate">Certificate</NavLink> {/* Certificate Link */}
+          <NavLink href="#certificates">Certificates</NavLink>
+          <NavLink href="#contact">Contact</NavLink>
         </Nav>
+
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.twitter} target="display"><TwitterIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          <SocialMediaIcon
+            href={Bio.twitter}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <TwitterIcon />
+          </SocialMediaIcon>
+
+          <SocialMediaIcon
+            href={Bio.linkedin}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <LinkedInIcon />
+          </SocialMediaIcon>
+
+          <SocialMediaIcon
+            href={Bio.insta}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <InstagramIcon />
+          </SocialMediaIcon>
         </SocialMediaIcons>
+
         <Copyright>
-          &copy; 2025 CHAVI JAIN. All rights reserved.
+          &copy; {new Date().getFullYear()} CHAVI JAIN. All rights reserved.
         </Copyright>
       </FooterWrapper>
     </FooterContainer>
