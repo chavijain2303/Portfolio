@@ -1,20 +1,21 @@
 import styled from "styled-components";
 import _default from "../../themes/default";
 
-
 export const HeroContainer = styled.div`
   background: ${({ theme }) => theme.card_light};
   display: flex;
   justify-content: center;
   position: relative;
   padding: 80px 30px;
+  z-index: 1;
+
   @media (max-width: 960px) {
     padding: 66px 16px;
   }
-  @media (max-width: 640) {
+
+  @media (max-width: 640px) {
     padding: 32px 16px;
   }
-  z-index: 1;
 
   clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 95%, 0 100%);
 `;
@@ -32,14 +33,14 @@ export const HeroBg = styled.div`
   max-width: 1360px;
   overflow: hidden;
   padding: 0 30px;
+
   top: 50%;
   left: 50%;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+  transform: translate(-50%, -50%);
 
   @media (max-width: 960px) {
     justify-content: center;
-    padding: 0 0px;
+    padding: 0;
   }
 `;
 
@@ -54,10 +55,16 @@ export const HeroInnerContainer = styled.div`
   @media (max-width: 960px) {
     flex-direction: column;
   }
+
+  @media (max-width: 640px) {
+    gap: 20px;
+  }
 `;
+
 export const HeroLeftContainer = styled.div`
   width: 100%;
   order: 1;
+
   @media (max-width: 960px) {
     order: 2;
     margin-bottom: 30px;
@@ -81,6 +88,7 @@ export const HeroRightContainer = styled.div`
   order: 2;
   justify-content: end;
   gap: 12px;
+
   @media (max-width: 960px) {
     order: 1;
     justify-content: center;
@@ -95,11 +103,11 @@ export const HeroRightContainer = styled.div`
 
 export const Img = styled.img`
   position: relative;
-  width: 400px; /* Ensures equal width */
-  height: 400px; /* Ensures equal height */
-  border-radius: 50%; /* Makes the image circular */
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
   border: 2px solid ${({ theme }) => theme.primary};
-  object-fit: cover; /* Ensures the image fits within the circle without distortion */
+  object-fit: cover;
 
   @media (max-width: 768px) {
     width: 350px;
@@ -112,20 +120,19 @@ export const Img = styled.img`
   }
 `;
 
-
-
 export const Title = styled.div`
   font-weight: 700;
   font-size: 50px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
+
   @media (max-width: 960px) {
     text-align: center;
   }
 
   @media (max-width: 640px) {
-    font-size: 40px;
-    line-height: 48px;
+    font-size: 34px;
+    line-height: 44px;
     margin-bottom: 8px;
   }
 `;
@@ -137,12 +144,14 @@ export const TextLoop = styled.div`
   gap: 12px;
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
+
   @media (max-width: 960px) {
     text-align: center;
   }
+
   @media (max-width: 640px) {
-    font-size: 22px;
-    line-height: 48px;
+    font-size: 20px;
+    line-height: 40px;
     margin-bottom: 16px;
   }
 `;
@@ -157,49 +166,50 @@ export const SubTitle = styled.div`
   line-height: 32px;
   margin-bottom: 42px;
   color: ${({ theme }) => theme.text_primary + 95};
+  max-width: 700px;
 
   @media (max-width: 960px) {
     text-align: center;
+    max-width: 90%;
   }
 
   @media (max-width: 640px) {
-    font-size: 16px;
-    line-height: 32px;
+    font-size: 15px;
+    line-height: 26px;
+    max-width: 95%;
   }
 `;
 
 export const ResumeButton = styled.a`
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-    text-decoration: none;
-    width: 95%;
-    max-width: 300px;
-    text-align: center;
-    padding: 16px 0;
-    color:${({ theme }) => theme.white};
-    border-radius: 20px;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: 600;
-    transition: all 0.2s ease-in-out !important;
-    background: hsla(271, 100%, 50%, 1);
-    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-    box-shadow:  20px 20px 60px #1F2634,
-    -20px -20px 60px #1F2634;
-    &:hover {
-        transform: scale(1.05);
-    transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
-    filter: brightness(1);
-    }    
-    
-    
-    @media (max-width: 640px) {
-        padding: 12px 0;
-        font-size: 18px;
-    } 
+  appearance: button;
+  text-decoration: none;
+  width: 95%;
+  max-width: 300px;
+  text-align: center;
+  padding: 16px 0;
+  color: ${({ theme }) => theme.white};
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out !important;
 
+  background: linear-gradient(
+    225deg,
+    hsla(271, 100%, 50%, 1) 0%,
+    hsla(294, 100%, 50%, 1) 100%
+  );
+
+  box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
+
+  &:hover {
+    transform: scale(1.05);
+    transition: all 0.4s ease-in-out;
+    filter: brightness(1);
+  }
+
+  @media (max-width: 640px) {
+    padding: 12px 0;
+    font-size: 18px;
+  }
 `;
